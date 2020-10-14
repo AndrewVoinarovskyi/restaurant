@@ -260,79 +260,7 @@ body{
     width: 207px;
     margin-left: 159px;
 }
-/*.menu{
-    background-image: url(Back/patternBG.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 995px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-.menu .txt{
-    
-}
-.menu .Osnova{
-    width: 333px;
-    height: 47px;
-    font-size: 36px;
-    line-height: 24px;
-    color: #cc9900;
-    font-weight: 400;
-    font-family: "Yeseva One";
-    text-align: center;
-    margin-top: 107px;
-    margin-left: 270px;
-    position: absolute;
-}
-.menu .whiteDec{
-    margin-top: -65px;
-    margin-left: 25px;
-    position: relative;
-}
-.menu .dishname{
-    width: 432px;
-    height: 130px;
-    font-size: 21px;
-    line-height: 24px;
-    color: #c89f2d;
-    font-weight: 400;
-    font-family: "Yeseva One";
-    text-align: left;
-    margin-top: -200px;
-    margin-left: 220px;
-    word-spacing: 248px;
 
-}
-.menu .line{
-    width: 432px;
-    height: 130px;
-    font-size: 21px;
-    line-height: 24px;
-    color: #c89f2d;
-    font-weight: 400;
-    font-family: "Yeseva One";
-    text-align: left;
-    word-spacing: 266px;
-}
-.menu .Discribe{
-    margin-top: -219px;
-    margin-left: 225px;
-}
-.menu .dishnameу{
-    width: 432px;
-    height: 130px;
-    font-size: 21px;
-    line-height: 24px;
-    color: #c89f2d;
-    font-weight: 400;
-    font-family: "Yeseva One";
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 220px;
-}
-.DiscribeY{
-
-}*/
 .menu{
     background-image: url(Back/patternBG.png);
     background-repeat: no-repeat;
@@ -344,7 +272,7 @@ body{
     justify-content: center;
 }
 
-.menu .left-side {
+.menu .dishes {
     width: 430px;
     margin-right: 160px;
 }
@@ -358,9 +286,6 @@ body{
     margin: 0 0 10px;
 }
 
-.menu .right-side {
-    width: 430px;
-}
 
 .menu-type-title {
     width: 432px;
