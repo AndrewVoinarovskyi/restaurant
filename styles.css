@@ -1,0 +1,708 @@
+body{
+    margin: 0px;
+}
+.top{
+    background-image: url(back/Bg.png) ;
+    min-height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top .header{
+    display: flex;
+    align-items: flex-start;
+    max-height: 110px;
+    margin-left: 179px;
+    margin-right: 210px;
+}
+.header .logotype{
+    flex:1;
+    text-align: center;
+    position: relative;
+    max-width: 210px;
+    max-width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logot{
+    position:absolute;
+    left: 15px;
+    top: 39px;
+}
+.header .navigation{
+    flex: 2;
+    width: 710px;
+    height: 73px;
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Gentium Book Basic";
+    margin-top: 30px;
+    word-spacing: 30px;
+    text-align: right;
+    font-family: 'Gentium Book Basic', serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header .media{
+    flex: 1;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 81px;
+    height: 40px;
+    font-size: 21px;
+    color: #dab33e;
+}
+.top .Promo{
+    width: 970px;
+    height: 346px;
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    filter: drop-shadow(0.469px 0.883px 1px rgba(1,1,1,0.64));
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 90px;
+}
+.top .Decor{
+    padding: 0px;
+}
+.Promo .Pro{
+    margin:0 0 0 0;
+    margin-bottom:-165px;
+}
+.top .buttons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 228px;
+    height: 57px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.butText{
+    position: absolute;
+    top:0;
+    width: 207px;
+    height: 49px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-left: -220px;
+}
+.butText1{
+    position: absolute;
+    top:0;
+    width: 207px;
+    height: 49px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-left: 238px;
+}
+.About{
+    background-image: url(Back/background.png);
+    background-image: url(Back/pattern.png);
+    min-height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: var(--grid-height);
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.About .divider{
+    flex:1;
+    width:78%;
+    float: left;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 60px;
+}
+.About .Zagolovok{
+    width: 432px;
+    height: 47px;
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+.About .imgdiv{
+    margin:0 0 0 0;
+    margin-top: -250px;
+    margin-left: -185px;
+}
+.divider .Opis{
+    width: 432px;
+    height: 130px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-top: -210px;
+}
+.divider .lastT{
+    width: 432px;
+    height: 130px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-top: -48px;
+}
+.divider .cook{
+    margin-top: -81px;
+    margin-left: 150px;
+}
+.About .dish{
+    background-image: url(Back/dish.png);
+    min-height: 614px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    float: right;
+    margin-left: 628px;
+    margin-right: 0;
+    width: 36%;
+    margin-top: 90px;
+}
+.ingredients{
+    background-image: url(Back/ingredientsBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 715px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.ingredients .FineIngredients{
+    position: absolute;
+    left: 50%;
+}
+.ingredients .bgText{
+    position: absolute;
+    float: right;
+    margin-top: 74px;
+    margin-right: 212px;
+}
+.ingredients .Fine{
+    width: 430px;
+    height: 93px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 58px;
+}
+.ingredients .Finediv{
+    margin-left: -138px;
+    position: relative;
+    margin-top: -296px;
+}
+.ingredients .ingr{
+    position: relative;
+    width: 430px;
+    height: 146px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-top: -210px;
+    margin-left: 60px;
+}
+.ingredients .ingrT{
+    position:relative;
+    width: 430px;
+    height: 146px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-top: -65px;
+    margin-left: 50px;
+}
+.FineIngredients .pshenica{
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 22px;
+    width: 258px;
+}
+.FineIngredients .spice{
+    position: absolute;
+    margin-top: -66px;
+    width: 222px;
+    margin-left: 90px;
+}
+.FineIngredients .bread{
+    position: relative;
+    margin-top: -36px;
+    width: 207px;
+    margin-left: 159px;
+}
+/*.menu{
+    background-image: url(Back/patternBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 995px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.menu .txt{
+    
+}
+.menu .Osnova{
+    width: 333px;
+    height: 47px;
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin-top: 107px;
+    margin-left: 270px;
+    position: absolute;
+}
+.menu .whiteDec{
+    margin-top: -65px;
+    margin-left: 25px;
+    position: relative;
+}
+.menu .dishname{
+    width: 432px;
+    height: 130px;
+    font-size: 21px;
+    line-height: 24px;
+    color: #c89f2d;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: left;
+    margin-top: -200px;
+    margin-left: 220px;
+    word-spacing: 248px;
+
+}
+.menu .line{
+    width: 432px;
+    height: 130px;
+    font-size: 21px;
+    line-height: 24px;
+    color: #c89f2d;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: left;
+    word-spacing: 266px;
+}
+.menu .Discribe{
+    margin-top: -219px;
+    margin-left: 225px;
+}
+.menu .dishnameу{
+    width: 432px;
+    height: 130px;
+    font-size: 21px;
+    line-height: 24px;
+    color: #c89f2d;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+.DiscribeY{
+
+}*/
+.menu{
+    background-image: url(Back/patternBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 995px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu .left-side {
+    width: 430px;
+    margin-right: 160px;
+}
+
+.line-divider {
+    color: #cc9900;
+    height: 1px;
+    background-color: #cc9900;
+    border: none;
+    opacity: 0.3;
+    margin: 0 0 10px;
+}
+
+.menu .right-side {
+    width: 430px;
+}
+
+.menu-type-title {
+    width: 432px;
+    height: 47px;
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+
+.dish-name {
+    display: flex;
+    justify-content: space-between;
+    width: 432px;
+    font-size: 21px;
+    color: #c89f2d;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: left;
+}
+.menuDiv{
+    position: absolute;
+    margin-top: -260px;
+    margin-left: -195px;
+}
+
+.Golova{
+    width: 432px;
+    height: 47px;
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 175px;
+    position: absolute;
+}
+.menu .dishname{
+    width: 432px;
+    height: 130px;
+    font-size: 21px;
+    line-height: 24px;
+    color: #c89f2d;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: left;
+    margin-top: -75px;
+    position: absolute;
+    margin-left: 269px;
+}
+.menu .Discribe{
+    margin-top: -100px;
+    position: relative;
+}
+.Divchik{
+    margin-top: -106px;
+    margin-left: -20px;
+}
+
+.Reviews{
+    background-image: url(Back/ShashelBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1050px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: -268px;
+    margin-left: -25px;
+    margin-right: -20px;
+}
+.Reviews .BackPh{
+    margin-top: 400px;
+    margin-left: 500px;
+}
+.Reviews .Guest{
+    width: 370px;
+    height: 73px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin-top: -495px;
+    margin-left: 690px;
+}
+.Reviews .GuestDec{
+    margin-top: -280px;
+    margin-left: 460px;
+}
+.Guest .Skobka{
+    width: 119px;
+    height: 119px;
+    font-size: 96px;
+    line-height: 45px;
+    color: #f2f4f4;
+    font-family: "Georgia";
+    text-align: center; 
+}
+.guesttext{
+    width: 630px;
+    height: 340px;
+    font-size: 25px;
+    line-height: 45px;
+    color: #dde0df;
+    font-weight: 700;
+    font-family: "Gentium Book Basic", serif;
+    text-align: center;
+    margin-top: -213px;
+    margin-left: 575px;
+}
+.foodinc{
+    width: 630px;
+    height: 340px;
+    font-size: 25px;
+    line-height: 45px;
+    color: #dde0df;
+    font-weight: 700;
+    font-family: "Gentium Book Basic", serif;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 560px
+}
+.end{
+    background-image: url(Back/pattern.png);
+    min-height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.imagesEndChoco{
+    margin-top: 110px;
+    margin-left: 150px;
+}
+.imagesEndCherry{
+    margin-top: 110px;
+    margin-left: 60px;
+}
+.end .Rightfood{
+    width: 432px;
+    height: 47px;
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin-top: -505px;
+    margin-left: 960px;
+}
+.end .Right{
+    margin-top: -245px;
+    margin-left: 762px;
+}
+.endtext{
+    width: 432px;
+    height: 171px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-left: 979px;
+    margin-top: -214px;
+}
+.forform{
+    width: 76px;
+    height: 17px;
+    font-size: 14px;
+    color: #c9a131;
+    font-weight: 700;
+    font-family: "Open Sans";
+    word-spacing: 195px;
+    margin-left: 1020px;
+    width: max-content;
+
+}
+.polevvoda{
+    width: 190px;
+    height: 36px;
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid #c89f2d;
+    margin-left: 1020px;
+}
+.Emailadress{
+    width: 190px;
+    height: 36px;
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid #c89f2d;
+    margin-left: 30px;
+}
+.DataForm{
+    width: 190px;
+    height: 36px;
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid #c89f2d;
+    margin-left: 1020px;
+}
+.Numberform{
+    width: 190px;
+    height: 36px;
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid #c89f2d;
+    margin-left: 30px;
+}
+.forButton{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -336px;
+    width: 200px;
+    height: 36px;
+    background-color: rgba(200,159,45,0.9803921568627451);
+    border: 1px solid #c89f2d;
+}
+.Booknow{
+    width: 198px;
+    height: 38px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-left: 1110px;
+    margin-top: 50px;
+    position: relative;
+}
+.footer{
+    background-image: url(Back/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+.AboutUs{  
+}
+.Us{
+    width: 170px;
+    height: 41px;
+    font-size: 21px;
+    line-height: 24px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin-top: 63px;
+    margin-left: 137px;
+}
+.footerDecor{
+    margin-left: -177px;
+    margin-top: -240px;
+    width: 845px;
+}
+.textUs{
+    width: 370px;
+    height: 136px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: -160px;
+    margin-left: 40px;
+}
+.Hours{
+}
+.Opening{
+    width: 170px;
+    height: 41px;
+    font-size: 21px;
+    line-height: 24px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin-top: 63px;
+    margin-left: 137px;
+}
+.Graphic{
+    width: 370px;
+    height: 136px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: -160px;
+    margin-left: 40px;
+}
+.cards{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-left: 155px;
+    margin-top: -20px;
+}
+.Location{
+}
+.Our{
+    width: 170px;
+    height: 41px;
+    font-size: 21px;
+    line-height: 24px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin-top: 63px;
+    margin-left: 137px;
+}
+.Adress{
+    width: 370px;
+    height: 136px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: -160px;
+    margin-left: 40px;
+}
+.mediaFoot{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 180px;
+}
+
